@@ -11,7 +11,7 @@ do
 
 	elif [ $random_number = 2 ];
 	then
-		imgcat racoon-pedro.gif & sleep 120; kill $!
+		curl -s https://media1.tenor.com/m/NVwxxoyoyGgAAAAC/racoon-pedro.gif | imgcat & sleep 120; kill $!
 		clear
 
 	elif [ $random_number = 3 ];
