@@ -19,7 +19,7 @@ do
 		sl
 		clear
 
-	elif [ $random_number = 4];
+	elif [ $random_number = 4 ];
 	then
 		fortune
 		sleep 120
