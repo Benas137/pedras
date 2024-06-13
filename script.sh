@@ -1,10 +1,9 @@
 #!/bin/bash
-
+apps=5
+timeout_seconds=120
 while true
 do
-	apps=5
-  timeout_seconds=120
-
+	clear
   case $((1 + RANDOM % apps)) in
   
     1)
@@ -17,7 +16,6 @@ do
   
     3)
       sl
-      clear
     ;;
   
     4)
