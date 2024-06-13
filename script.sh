@@ -18,7 +18,6 @@ do
     3)
       sl
       clear
-      #sleep $timeout_seconds
     ;;
   
     4)
